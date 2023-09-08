@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Overpass', sans-serif;
+}
+
+body{
+  background-color: hsl(217, 19%, 24%);
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  min-width: 300px;
+  max-width: 375px;
+  padding: 0 10px;
+}
+
+.App{
+  background-color: hsl(217, 19%, 38%);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.heading{
+  color:  hsl(150, 100%, 66%);
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.advice{
+  color:  hsl(193, 38%, 86%);
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+}
+
+.divider{
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+.dice-container{
+  margin-top: -20px;
+  width: 100%;
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+}
+
+.dice{
+  width: 50px;
+  height: 50px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 768px){
+
+  .container{
+    max-width: 500px;
+  }
+
+  .advice{
+    font-size: 1.5rem;
+  }
+
+}
